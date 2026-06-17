@@ -1,9 +1,19 @@
 body{
     background-color: #e7d7c8;
+    margin: 30px;
 }
 
 header{
     color: #1e2b22;
+}
+
+a:link, a:visited {
+  background-color: #1e2b22;
+  color: white;
+  padding: 5px 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
 
 footer{
