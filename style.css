@@ -1,14 +1,15 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: #e7d7c8;
     font-family: sans-serif;
 }
 
-header{
+header {
     color: #1e2b22;
     display: flex;
     justify-content: space-around;
@@ -16,54 +17,87 @@ header{
     min-height: 4.5rem;
 }
 
-nav{
+nav {
     display: flex;
     gap: 1.25rem;
 }
 
-a:link, a:visited {
-  background-color: #1e2b22;
-  color: white;
-  padding: .3rem .5rem;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  border-radius: 0.3rem;
+a:link,
+a:visited {
+    background-color: #1e2b22;
+    color: white;
+    padding: .3rem .5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 0.3rem;
 }
 
-section{
+section {
     padding: 2rem;
 }
 
-footer{
+footer {
     background-color: #1e2b22;
-    color: white
+    color: white;
+    padding: 1rem;
+    text-align: center;
 }
 
-.logo{
-    display:flex;
+.logo {
+    display: flex;
     align-items: center;
 }
 
-.logo img{
+.logo img {
     height: 8.75rem;
     margin: .7rem;
 }
 
-.titulo-header{
+.titulo-header {
     padding: 0;
     margin: 0;
 }
 
-.container{
+.container {
     min-height: 100dvh;
     display: grid;
     grid-template-rows: auto 1fr auto;
 
 }
 
-@media (max-width: 700px){
-    header{
+.programa {
+    background-color: #eeddcc;
+    margin: 0.5rem auto;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    max-width: 80%;
+}
+
+.indice1{
+    background-color: #caa6c2;
+    margin: 0.5rem auto;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    max-width: 80%;
+}
+
+.indice2 {
+    background-color: #c1bdb2;
+    margin: 0.5rem auto;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    max-width: 80%;
+}
+
+a.sp:link,
+a.sp:visited {
+    padding: 0;
+}
+
+
+@media (max-width: 700px) {
+    header {
         flex-direction: column;
     }
-};
+}
