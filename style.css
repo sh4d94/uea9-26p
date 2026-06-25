@@ -41,6 +41,7 @@ footer {
     background-color: #1e2b22;
     color: white;
     padding: 1rem;
+    text-align: center;
 }
 
 .logo {
@@ -76,12 +77,14 @@ footer {
     margin: 0.5rem;
     padding: 1rem;
     border-radius: 0.5rem;
+    max-width: 80%;
 }
 .indice2 {
     background-color: #c1bdb2;
     margin: 0.5rem;
     padding: 1rem;
     border-radius: 0.5rem;
+    max-width: 80%;
 }
 
 @media (max-width: 700px) {
@@ -89,5 +92,3 @@ footer {
         flex-direction: column;
     }
 }
-
-;
