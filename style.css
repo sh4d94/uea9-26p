@@ -68,20 +68,21 @@ footer {
 
 .programa {
     background-color: #eeddcc;
-    margin: 0.5rem;
+    margin: 0.5rem auto;
     padding: 1rem;
     border-radius: 0.5rem;
+    max-width: 80%;
 }
 .indice1{
     background-color: #caa6c2;
-    margin: 0.5rem;
+    margin: 0.5rem auto;
     padding: 1rem;
     border-radius: 0.5rem;
     max-width: 80%;
 }
 .indice2 {
     background-color: #c1bdb2;
-    margin: 0.5rem;
+    margin: 0.5rem auto;
     padding: 1rem;
     border-radius: 0.5rem;
     max-width: 80%;
