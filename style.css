@@ -15,12 +15,44 @@ header {
     justify-content: space-around;
     align-items: center;
     min-height: 4.5rem;
+    font-family: 'Arial';
+}
+
+header a{
+    color: #2a3d30;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 1.1rem;
 }
 
 nav {
     display: flex;
     gap: 1.25rem;
 }
+
+nav a {
+    color: #1e2b22;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: none;
+    transition: 0.3s;
+    font-weight: bold; 
+    cursor: pointer;
+}
+
+nav a:active {
+    color: #66816e;
+    text-decoration: underline;
+    transition: 0.3s;
+    font-weight: bold; 
+}
+
 
 a:link,
 a:visited {
@@ -58,6 +90,9 @@ footer {
 .titulo-header {
     padding: 0;
     margin: 0;
+    font-family: 'Impact';
+    text-transform: uppercase;
+    font-size: 2.5rem;
 }
 
 .container {
@@ -102,4 +137,18 @@ a.sp:visited {
     header {
         flex-direction: column;
     }
+}
+
+summary {
+    background-color: #E9CCAF;
+    color:#1e2b22;
+}
+
+summary:hover {
+    background-color: #E9CCAF;
+    color:#1e2b22;
+    font-weight: bold;
+    transition: 0.3s;
+    font-size: 1.1rem;
+    cursor: pointer;
 }
