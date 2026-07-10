@@ -133,16 +133,7 @@ footer {
     max-width: 80%;
 }
 
-#a1, #a2, #a3, #a4, #a5{
-    color:#1e2b22;
-    padding: 0;
-    margin: 0;
-    font-family: 'Anton', sans-serif;
-    text-transform: uppercase;
-    font-size: 1.2rem;
-}
-
-.taller1, .taller2, .taller3{
+.titulosPrograma{
     color:#1e2b22;
     padding: 0;
     margin: 0;
@@ -187,7 +178,7 @@ details[open] p {
     opacity: 1;
 }
 
-#d1, #d2, #d3, #d4, #d5{
+.detailsCaja{
     background-color: #E9CCAF;
     padding: 1rem;
     border-radius: 0.5rem;
@@ -215,6 +206,7 @@ a.sp:link,
 a.sp:visited {
     padding: 0;
     margin-top: 0;
+
 }
 
 
@@ -223,6 +215,3 @@ a.sp:visited {
         flex-direction: column;
     }
 }
-
-
-
