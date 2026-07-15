@@ -38,7 +38,7 @@ img{
 
 nav {
     display: flex;
-    gap: 1.25rem;
+    gap: 1rem;
 }
 
 nav a {
@@ -60,13 +60,12 @@ nav a:active {
     font-weight: bold; 
 }
 
-
 a:link,
 a:visited {
     background-color: #1e2b22;
     color: white;
-    margin-top: 0.3rem;
-    padding: .3rem .5rem;
+    margin-top: 0.2rem;
+    padding: .2rem .4rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -125,10 +124,26 @@ footer {
     padding: 0.25rem;
 }
 
+.containerImg2{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #c1bdb2;
+    margin: 0.4rem auto;
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.containerImg2 div{
+    width: 700px;
+    padding: 0.5rem;
+}
+
 .programa {
     background-color: #eeddcc;
-    margin: 0.5rem auto;
-    padding: 1rem;
+    margin: 0.4rem auto;
+    padding: 0.4rem;
     border-radius: 0.5rem;
     max-width: 80%;
 }
